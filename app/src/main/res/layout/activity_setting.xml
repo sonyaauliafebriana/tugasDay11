@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/cariButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:src="@drawable/search_client"
+            android:contentDescription="@string/search_description"
+            android:padding="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp" />
+
+        <ImageButton
+            android:id="@+id/obrolanButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:src="@drawable/messaging"
+            android:contentDescription="@string/messaging_description"
+            android:padding="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp" />
+
+        <ImageButton
+            android:id="@+id/panggilanButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:src="@drawable/number_pad"
+            android:contentDescription="@string/number_description"
+            android:padding="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp" />
+
+        <ImageButton
+            android:id="@+id/settingButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:src="@drawable/security_configuration"
+            android:contentDescription="@string/setting_description"
+            android:padding="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp" />
+
+        <ImageButton
+            android:id="@+id/profilButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:src="@drawable/client_management"
+            android:contentDescription="@string/profil_description"
+            android:padding="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

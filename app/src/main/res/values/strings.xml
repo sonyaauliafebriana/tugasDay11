@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tugasDay11</string>
+    <string name="logo_description">logo_description</string>
+    <string name="setting_description">setting_description</string>
+    <string name="profil_description">profil_description</string>
+    <string name="search_description">search_description</string>
+    <string name="messaging_description">messaging_description</string>
+    <string name="number_description">number_description</string>
+</resources>
